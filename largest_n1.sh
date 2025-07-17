@@ -6,7 +6,7 @@ for ((i=0;i<n;i++))
 do
 read arr["$i"]
 done
-max=${arr[$i]}
+max=${arr[0]}
 for (( i=1;i<n;i++ ))
 do
 if [[ $max<${arr[$i]} ]]
